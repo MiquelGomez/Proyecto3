@@ -1,0 +1,156 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background-color: #EFEFEF;
+	width: 80%;
+	margin: 5% 10%;
+}
+
+.header {
+	height: 80px;
+	background-color: #A9A9A9;
+	border: solid 1px black;
+}
+
+.logo {
+	background-image: url("../img/banner_opt.jpg");
+	height: 100%;
+	width: 11.75%;
+	border-right: solid 1px black;
+	float: left;
+}
+.welcome{
+
+    position: relative;
+    margin-left: 85%;
+    width: 25%;
+}
+
+
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: #DADADA;
+
+}
+
+/* Remove margins and padding from the list, and add a black background color */
+nav ul.topnav {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+/* Float the list items side by side */
+nav ul.topnav li {float: left;  }
+
+/* Style the links inside the list items */
+nav ul.topnav li a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+nav ul.topnav li a:hover {background-color: #555; color: white;}
+
+
+/*APARTADO MIS RECURSOS*/
+.profile{
+
+    width: 20%;
+    margin-left: 70%;
+    margin-top: -2%;
+    font-size: 1.32em;
+}
+
+.container{
+    background-color: white;
+    width: 100%;
+    border-radius:1em;
+    height: 100%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1em;
+}
+
+.content_rec{
+	margin-top: 1%;
+    margin-bottom: 2%;
+    text-align:center;
+    width: 75%;
+    background-color:#DADADA;
+    margin-left: 10%;
+}
+.content_rec table{
+	width: 100%;
+     border-radius: 8px 8px 8px 8px;
+}
+.formtipo{
+    margin-top: 5%;    
+}
+/*LOGOUT*/
+.img_logout{
+      width: 8%;
+       margin-left: 75%
+}
+.logout{
+    width: 20%;
+    position: relative;
+    margin-left: 81%;
+    margin-top: -3%;
+}
+/*Estilos de formulario*/
+.formtipo
+{
+    font-size: 1.3em;
+    border: 1px solid #ccc;
+    background-color: #D8D8D8;
+    border-top-left-radius: 0.5em 1em;
+    border-top-right-radius: 0.5em 1em;
+}
+select{
+     padding: 5px 8px;
+    box-shadow: none;
+    background-image: none;
+   font-size:0.75em;
+}
+input{
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #000;
+    background: #fff;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 0.65em;
+}
+
+.res_inici {
+    margin-left: 15%;
+    float: left;
+}
+
+.res_final {
+    float: right;
+    margin-right: 15%;
+}
+
+.invisible{
+	display:none;
+}
+
+.ocultar {
+    margin-top:5%;
+    display: none;
+
+}
+
+.mostrar {
+    display:block;
+}

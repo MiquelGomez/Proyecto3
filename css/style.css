@@ -1,0 +1,64 @@
+body{
+    background-color:#EFEFEF
+}
+
+/* ESTILOS CORRESPONDIENTES A LA PANTALLA DE LOGIN*/
+.login_logo{
+    margin-left:40%;
+    width:15%;
+    margin-bottom: 3%;
+    margin-top:3%;
+}
+.login_image{
+    width:100%;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    border: 1px solid #b4b4b4
+}
+.login {
+    margin-left: 37%;
+    width: 20%;
+    background-color: #dadada;
+    position: relative;
+    border-color: black;
+    border: 1px;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid #ccc;    
+    border-radius: 8px 8px 8px 8px;
+    font-family: cambria;
+}
+/*Caja de error*/
+.login_failed {
+    margin-left: 37%;
+    width: 20%;
+    background-color: #f64545;
+    position: relative;
+    border-color: black;
+    border: 1px;
+    text-align: center;
+    font-size: 1.5em;
+    border: 1px solid #ccc;    
+    border-radius: 8px 8px 8px 8px;
+    font-family: cambria;
+}
+.name {
+    width: 75%;
+}
+.pass{
+    width: 75%;
+}
+.send {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 10px 20px 0;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.send:hover {
+    background: #b4aaaa;
+}
